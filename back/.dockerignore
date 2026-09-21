@@ -1,0 +1,10 @@
+*md
+*.pdf
+*.txt
+.git*
+.env*
+Makefile
+docker-compose.yml
+dockerfile
+.dockerignore
+node_modules

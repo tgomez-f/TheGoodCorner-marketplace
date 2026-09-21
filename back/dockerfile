@@ -1,0 +1,29 @@
+FROM node:26-alpine AS builder
+
+WORKDIR /app
+
+COPY package*.json ./
+COPY tsconfig.json ./
+RUN npm install --no-audit --no-fund --loglevel=error
+
+COPY src ./src
+
+RUN npm run build
+COPY src/prisma /app/dist/prisma
+RUN npm prune --omit=dev
+
+FROM node:26-alpine AS runner
+
+WORKDIR /app
+
+COPY ./conf/back_setup.sh /usr/local/bin/back_setup.sh
+COPY ./conf/Images_db_test /app/uploads/
+RUN chmod +x /usr/local/bin/back_setup.sh
+
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/dist ./dist
+COPY --from=builder  /app/dist/prisma/schema.prisma /app/dist/prisma/
+
+ENTRYPOINT ["/usr/local/bin/back_setup.sh"]
+CMD ["npm", "start"]

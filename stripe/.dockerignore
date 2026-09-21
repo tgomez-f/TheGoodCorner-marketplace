@@ -1,0 +1,9 @@
+.git
+.env
+*md
+*.pdf
+*.txt
+Makefile
+docker-compose.yml
+dockerfile
+.dockerignore

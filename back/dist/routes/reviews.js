@@ -1,0 +1,10 @@
+import { Router } from 'express';
+import reviewController from '../controllers/reviewController.js';
+import { AuthenticateToken } from '../services/middlewareAuthenticateToken.js';
+import { findReturnUserReviews } from '../services/reviews/utilsReviews.js';
+const reviewsRouter = Router({ mergeParams: true });
+reviewsRouter.get('/user/:id/reviews', findReturnUserReviews);
+reviewsRouter.post('/user/:id/reviews', AuthenticateToken, reviewController.createReview);
+reviewsRouter.put('/user/:id/reviews/:reviewId', AuthenticateToken, reviewController.updateReview);
+reviewsRouter.delete('/user/:id/reviews/:reviewId', AuthenticateToken, reviewController.deleteReview);
+export default reviewsRouter;

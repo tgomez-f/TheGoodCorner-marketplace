@@ -1,0 +1,71 @@
+services:
+
+  webserver:
+    build:
+      context: .
+      dockerfile: ./webserver/dockerfile
+    container_name: webserver
+    env_file:
+      - ./back/.env
+    networks:
+      - Container_network
+    volumes:
+      - uploads_data:/app/uploads
+    ports:
+      - "4443:443" # htttps
+      - "8080:80"  #http
+    restart: always
+
+  back:
+    build:
+      context: ./back
+      dockerfile: dockerfile
+    container_name: back
+    env_file:
+      - ./back/.env
+    networks:
+      - Container_network
+    volumes:
+      - uploads_data:/app/uploads
+    depends_on:
+      postgresql:
+        condition: service_healthy
+    restart: always
+
+  stripe:
+    build:
+      context: ./stripe
+      dockerfile: dockerfile
+    container_name: stripe
+    networks:
+      - Container_network
+    depends_on:
+      - back
+    env_file:
+      - ./back/.env
+    restart: always
+
+  postgresql:
+    build:
+      context: ./database
+      dockerfile: dockerfile
+    container_name: postgresql
+    env_file:
+      - ./back/.env
+    networks:
+      - Container_network
+    volumes:
+      - postgresql_data:/var/lib/postgresql
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U GoodCorner -d mydb" ]
+      interval: 2s
+      timeout: 3s
+      retries: 5
+    restart: always
+
+networks:
+  Container_network:
+    driver: bridge
+volumes:
+  postgresql_data:
+  uploads_data:

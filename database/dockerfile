@@ -1,0 +1,6 @@
+FROM docker.io/library/postgres:alpine
+
+COPY ./conf/db_setup.sh /usr/local/bin/db_setup.sh
+RUN chmod +x /usr/local/bin/db_setup.sh
+
+ENTRYPOINT ["/usr/local/bin/db_setup.sh"]

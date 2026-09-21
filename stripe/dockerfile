@@ -1,0 +1,5 @@
+FROM docker.io/stripe/stripe-cli:latest
+
+COPY ./conf/stripe.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT ["/bin/sh", "/entrypoint.sh"]

@@ -1,0 +1,2180 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-09-09 16:27+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: fr\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/components/products/ProductForm.jsx
+msgid "-- Sélectionne une catégorie --"
+msgstr "-- Sélectionne une catégorie --"
+
+#. placeholder {0}: product.name
+#: src/components/products/ProductCard.jsx
+msgid "\"{0}\" sera définitivement supprimée. Cette action est irréversible."
+msgstr "\"{0}\" sera définitivement supprimée. Cette action est irréversible."
+
+#. placeholder {0}: item.stock
+#. placeholder {1}: item.stock > 1 ? 'disponibles' : 'disponible'
+#: src/pages/CartPopover.jsx
+#~ msgid "({0} {1})"
+#~ msgstr "({0} {1})"
+
+#. placeholder {0}: item.stock
+#: src/pages/CartPopover.jsx
+#~ msgid "({0} disponible)"
+#~ msgstr "({0} disponible)"
+
+#. placeholder {0}: product.quantity
+#: src/pages/ProduitDetail.jsx
+msgid "({0} en stock)"
+msgstr "({0} en stock)"
+
+#: src/pages/ProduitDetail.jsx
+msgid "(Victime de son succès)"
+msgstr "(Victime de son succès)"
+
+#. placeholder {0}: item.stock
+#: src/pages/CartPopover.jsx
+msgid "{0, plural, one {# disponible} other {# disponibles}}"
+msgstr "{0, plural, one {# disponible} other {# disponibles}}"
+
+#. placeholder {0}: filteredProducts.length
+#: src/pages/Produits.jsx
+msgid "{0, plural, one {# produit trouvé} other {# produits trouvés}}"
+msgstr "{0, plural, one {# produit trouvé} other {# produits trouvés}}"
+
+#. placeholder {0}: userRating.toFixed(1)
+#. placeholder {1}: activeReviews.length
+#: src/pages/SellerProfile.jsx
+msgid "{0} ({1} avis)"
+msgstr "{0} ({1} avis)"
+
+#. placeholder {0}: cartItems.length > 1 ? 'Articles' : 'Article'
+#. placeholder {1}: cartItems.length
+#: src/pages/Checkout.jsx
+msgid "{0} ({1})"
+msgstr "{0} ({1})"
+
+#. placeholder {0}: userRating.toFixed(1)
+#: src/components/profile/ProfilHeader.jsx
+msgid "{0} ({reviewCount, plural, one {# avis} other {# avis}})"
+msgstr "{0} ({reviewCount, plural, one {# avis} other {# avis}})"
+
+#. placeholder {0}: notif.data.acceptedBy?.username
+#: src/pages/NotificationPopover.jsx
+msgid "{0} a accepté votre demande"
+msgstr "{0} a accepté votre demande"
+
+#. placeholder {0}: notif.data.authorUsername
+#. placeholder {1}: notif.data.rating
+#: src/pages/NotificationPopover.jsx
+msgid "{0} a laissé un avis ({1}★)"
+msgstr "{0} a laissé un avis ({1}★)"
+
+#. placeholder {0}: notif.data.rejectedBy?.username
+#: src/pages/NotificationPopover.jsx
+msgid "{0} a refusé votre demande"
+msgstr "{0} a refusé votre demande"
+
+#. placeholder {0}: notif.data.sender?.username
+#: src/pages/NotificationPopover.jsx
+msgid "{0} veut vous ajouter"
+msgstr "{0} veut vous ajouter"
+
+#: src/pages/Profile.jsx
+msgid "{reviewCount, plural, one {# avis client} other {# avis des clients}}"
+msgstr "{reviewCount, plural, one {# avis client} other {# avis des clients}}"
+
+#: src/pages/Profile.jsx
+#~ msgid "{reviewCount} avis des clients"
+#~ msgstr "{reviewCount} avis des clients"
+
+#: src/components/layouts/Footer.jsx
+msgid "© 2026 TheGoodCorner. Tous droits réservés."
+msgstr "© 2026 TheGoodCorner. Tous droits réservés."
+
+#. placeholder {0}: data.newBudget ?? 'mis à jour'
+#: src/pages/Settings.jsx
+msgid "+{numericAmount}€ crédités avec succès ! (Nouveau solde : {0}€)"
+msgstr "+{numericAmount} € crédités avec succès ! (Nouveau solde : {0} €)"
+
+#. placeholder {0}: data.newBudget ?? 'updated'
+#: src/pages/Settings.jsx
+#~ msgid "+{numericAmount}€ successfully credited! (New balance: {0}€)"
+#~ msgstr "+{numericAmount} € crédités avec succès ! (Nouveau solde : {0} €)"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "<0>Accès et rectification</0> : modifiables directement depuis votre page Profil."
+msgstr "<0>Accès et rectification</0> : modifiables directement depuis votre page Profil."
+
+#: src/pages/SellerProfile.jsx
+msgid "<0>Connecte-toi</0> pour laisser un avis à ce vendeur."
+msgstr "<0>Connecte-toi</0> pour laisser un avis à ce vendeur."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "<0>Données de compte</0> : email, mot de passe (jamais stocké en clair), nom d'utilisateur."
+msgstr "<0>Données de compte</0> : email, mot de passe (jamais stocké en clair), nom d'utilisateur."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "<0>Données de profil (optionnelles)</0> : numéro de téléphone, adresse (pays, région, ville, rue, numéro, complément), photo de profil, biographie."
+msgstr "<0>Données de profil (optionnelles)</0> : numéro de téléphone, adresse (pays, région, ville, rue, numéro, complément), photo de profil, biographie."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "<0>Données liées à votre activité</0> : produits que vous publiez (nom, description, prix, catégorie, photo), avis que vous laissez à d'autres utilisateurs (note, commentaire), messages échangés avec d'autres membres via la messagerie."
+msgstr "<0>Données liées à votre activité</0> : produits que vous publiez (nom, description, prix, catégorie, photo), avis que vous laissez à d'autres utilisateurs (note, commentaire), messages échangés avec d'autres membres via la messagerie."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "<0>Données techniques</0> : préférence de thème (clair/sombre), contenu de votre panier, aperçu de vos conversations — stockées localement dans votre navigateur (voir la section Cookies ci-dessous)."
+msgstr "<0>Données techniques</0> : préférence de thème (clair/sombre), contenu de votre panier, aperçu de vos conversations — stockées localement dans votre navigateur (voir la section Cookies ci-dessous)."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "<0>Effacement</0> : suppression de votre compte via requette à un administrateur de TGC France (via le mail ci-dessous)."
+msgstr "<0>Effacement</0> : suppression de votre compte via requête à un administrateur de TGC France (via le mail ci-dessous)."
+
+#: src/pages/TermsOfService.jsx
+msgid "<0>En tant qu'acheteur</0>, vous pouvez ajouter des articles à votre panier et contacter le vendeur via la messagerie intégrée. Le site empêche techniquement l'achat de votre propre produit."
+msgstr "<0>En tant qu'acheteur</0>, vous pouvez ajouter des articles à votre panier et contacter le vendeur via la messagerie intégrée. Le site empêche techniquement l'achat de votre propre produit."
+
+#: src/pages/TermsOfService.jsx
+msgid "<0>En tant que vendeur</0>, vous pouvez publier une annonce (nom, description, catégorie, prix, photo). Le prix d'un produit ne peut excéder 10 000 €. Vous êtes seul responsable de l'exactitude de votre annonce et de la conformité de l'article proposé."
+msgstr "<0>En tant que vendeur</0>, vous pouvez publier une annonce (nom, description, catégorie, prix, photo). Le prix d'un produit ne peut excéder 10 000 €. Vous êtes seul responsable de l'exactitude de votre annonce et de la conformité de l'article proposé."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "<0>Opposition et limitation</0> du traitement."
+msgstr "<0>Opposition et limitation</0> du traitement."
+
+#: src/pages/TermsOfService.jsx
+msgid "<0>Paiement :</0> le paiement en ligne n'est pas encore disponible sur la plateforme à ce stade du projet. Le bouton « Procéder au paiement » est présent à titre d'aperçu de l'expérience finale mais n'est connecté à aucun prestataire de paiement, et aucune donnée bancaire n'est collectée ou traitée par TheGoodCorner actuellement. Les modalités d'échange et de remise de l'article sont, pour l'instant, à organiser directement entre l'acheteur et le vendeur via la messagerie."
+msgstr "<0>Paiement :</0> le paiement en ligne n'est pas encore disponible sur la plateforme à ce stade du projet. Le bouton « Procéder au paiement » est présent à titre d'aperçu de l'expérience finale mais n'est connecté à aucun prestataire de paiement, et aucune donnée bancaire n'est collectée ou traitée par TheGoodCorner actuellement. Les modalités d'échange et de remise de l'article sont, pour l'instant, à organiser directement entre l'acheteur et le vendeur via la messagerie."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "<0>Portabilité</0> de vos données."
+msgstr "<0>Portabilité</0> de vos données."
+
+#: src/pages/SuccessCheckout.jsx
+msgid "2 à 4 jours ouvrés"
+msgstr "2 à 4 jours ouvrés"
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "2FA activée"
+msgstr "2FA activée"
+
+#: src/pages/PrivacyPolicy.jsx
+#: src/pages/TermsOfService.jsx
+msgid "31 août 2026"
+msgstr "31 août 2026"
+
+#: src/pages/Produits.jsx
+msgid "à"
+msgstr "à"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "À propos"
+msgstr "À propos"
+
+#: src/pages/TermsOfService.jsx
+msgid "Acceptation"
+msgstr "Acceptation"
+
+#: src/components/friends/FriendActionButton.jsx
+msgid "Accepter"
+msgstr "Accepter"
+
+#: src/pages/Profile.jsx
+msgid "Accepter la demande d'ami"
+msgstr "Accepter la demande d'ami"
+
+#: src/pages/Settings.jsx
+msgid "Accès aux paramètres"
+msgstr "Accès aux paramètres"
+
+#: src/pages/Settings.jsx
+#~ msgid "Account deleted successfully."
+#~ msgstr "Compte supprimé avec succès."
+
+#: src/components/layouts/Footer.jsx
+#: src/components/layouts/Navbar.jsx
+#: src/pages/ProduitDetail.jsx
+msgid "Accueil"
+msgstr "Accueil"
+
+#: src/pages/Faq.jsx
+msgid "Acheter & Vendre"
+msgstr "Acheter & Vendre"
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "Active la double authentification"
+msgstr "Activer la double authentification"
+
+#: src/pages/Settings.jsx
+msgid "Activer ou désactiver la double authentification"
+msgstr "Activer ou désactiver la double authentification"
+
+#: src/pages/Settings.jsx
+#~ msgid "Add funds to wallet (EUR):"
+#~ msgstr "Ajouter des fonds au portefeuille (EUR) :"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Adresse"
+msgstr "Adresse"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Adresse complète"
+msgstr "Adresse complète"
+
+#: src/pages/Faq.jsx
+msgid "Adresse e-mail valide requise à l'inscription."
+msgstr "Adresse e-mail valide requise à l'inscription."
+
+#: src/hooks/useProfileEditForm.jsx
+msgid "Adresse incomplète : remplis tous les champs (pays, région, ville, rue, numéro), ou laisse-les tous vides."
+msgstr "Adresse incomplète : remplis tous les champs (pays, région, ville, rue, numéro), ou laisse-les tous vides."
+
+#: src/pages/Settings.jsx
+msgid "Afficher les options de sécurité 2FA"
+msgstr "Afficher les options de sécurité 2FA"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Afficher rapidement l'aperçu de vos conversations au chargement de la messagerie"
+msgstr "Afficher rapidement l'aperçu de vos conversations au chargement de la messagerie"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Afficher votre profil vendeur (public) aux autres membres."
+msgstr "Afficher votre profil vendeur (public) aux autres membres."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Âge minimum"
+msgstr "Âge minimum"
+
+#: src/hooks/useProductForm.jsx
+msgid "Ajoute une description."
+msgstr "Ajoute une description."
+
+#: src/hooks/useProductForm.jsx
+msgid "Ajoute une image."
+msgstr "Ajoute une image."
+
+#: src/components/products/ProductCard.jsx
+#: src/pages/ProduitDetail.jsx
+msgid "Ajouter au panier"
+msgstr "Ajouter au panier"
+
+#: src/pages/Settings.jsx
+msgid "Ajouter des fonds au portefeuille (EUR) :"
+msgstr "Ajouter des fonds au portefeuille (EUR) :"
+
+#: src/components/friends/FriendActionButton.jsx
+msgid "Ajouter en ami"
+msgstr "Ajouter en ami"
+
+#: src/pages/Profile.jsx
+msgid "Ajouter un produit"
+msgstr "Ajouter un produit"
+
+#: src/pages/CartPopover.jsx
+msgid "Aller au paiement"
+msgstr "Aller au paiement"
+
+#: src/components/friends/FriendActionButton.jsx
+#: src/pages/Profile.jsx
+msgid "Amis"
+msgstr "Amis"
+
+#. placeholder {0}: listings.length
+#: src/pages/SellerProfile.jsx
+msgid "Annonces ({0})"
+msgstr "Annonces ({0})"
+
+#: src/components/chat/MessageBubble.jsx
+#: src/components/products/ProductCard.jsx
+#: src/components/profile/ProfilHeader.jsx
+#: src/components/reviews/ReviewCard.jsx
+#: src/pages/ProduitDetail.jsx
+#: src/pages/Profile.jsx
+#: src/pages/Settings.jsx
+msgid "Annuler"
+msgstr "Annuler"
+
+#: src/pages/Profile.jsx
+msgid "Annuler la demande d'ami"
+msgstr "Annuler la demande d'ami"
+
+#: src/pages/Settings.jsx
+#~ msgid "Application language"
+#~ msgstr "Langue de l'application"
+
+#. placeholder {0}: cartItems.length
+#: src/pages/Checkout.jsx
+#~ msgid "Articles ({0})"
+#~ msgstr "Articles ({0})"
+
+#. placeholder {0}: mergedItems.length
+#: src/pages/Orders.jsx
+msgid "Articles commandés ({0})"
+msgstr "Articles commandés ({0})"
+
+#: src/pages/SellerProfile.jsx
+msgid "Aucun avis pour l'instant"
+msgstr "Aucun avis pour l'instant"
+
+#: src/pages/Orders.jsx
+msgid "Aucun détail d'article disponible pour cette transaction."
+msgstr "Aucun détail d'article disponible pour cette transaction."
+
+#: src/components/chat/ChatThread.jsx
+msgid "Aucun message pour le moment — dis bonjour !"
+msgstr "Aucun message pour le moment — dis bonjour !"
+
+#: src/pages/Produits.jsx
+msgid "Aucun produit disponible pour le moment. Revenez bientôt !"
+msgstr "Aucun produit disponible pour le moment. Revenez bientôt !"
+
+#: src/pages/Produits.jsx
+msgid "Aucun produit ne correspond à vos critères"
+msgstr "Aucun produit ne correspond à vos critères"
+
+#: src/components/chat/SelectUserModal.jsx
+msgid "Aucun utilisateur trouvé"
+msgstr "Aucun utilisateur trouvé"
+
+#: src/components/chat/ConversationsSidebar.jsx
+msgid "Aucune conversation pour l'instant."
+msgstr "Aucune conversation pour l'instant."
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Aucune description fournie"
+msgstr "Aucune description fournie"
+
+#: src/components/profile/ProfilInfos.jsx
+#: src/pages/SellerProfile.jsx
+msgid "Aucune note"
+msgstr "Aucune note"
+
+#: src/pages/NotificationPopover.jsx
+msgid "Aucune notification"
+msgstr "Aucune notification"
+
+#: src/pages/CartPopover.jsx
+#: src/pages/ProduitDetail.jsx
+msgid "Augmenter la quantité"
+msgstr "Augmenter la quantité"
+
+#: src/pages/Produits.jsx
+msgid "Augmenter le prix maximum"
+msgstr "Augmenter le prix maximum"
+
+#: src/pages/Produits.jsx
+msgid "Augmenter le prix minimum"
+msgstr "Augmenter le prix minimum"
+
+#: src/utils/constants.jsx
+msgid "Autre"
+msgstr "Autre"
+
+#. placeholder {0}: activeReviews.length
+#. placeholder {0}: reviewCount || 0
+#: src/pages/Profile.jsx
+#: src/pages/SellerProfile.jsx
+msgid "Avis ({0})"
+msgstr "Avis ({0})"
+
+#: src/pages/TermsOfService.jsx
+msgid "Avis et évaluations"
+msgstr "Avis et évaluations"
+
+#: src/pages/Settings.jsx
+msgid "Basculer le mode sombre"
+msgstr "Basculer le mode sombre"
+
+#: src/pages/Settings.jsx
+msgid "Basculer les notifications"
+msgstr "Basculer les notifications"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Base légale"
+msgstr "Base légale"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Bâtiment B, 3e étage..."
+msgstr "Bâtiment B, 3e étage..."
+
+#: src/pages/Profile.jsx
+msgid "Bien tenté, petit fouineur !"
+msgstr "Bien tenté, petit fouineur !"
+
+#: src/pages/Home.jsx
+msgid "Bienvenue sur TheGoodCorner"
+msgstr "Bienvenue sur TheGoodCorner"
+
+#: src/pages/ProduitDetail.jsx
+#: src/pages/Produits.jsx
+#: src/utils/constants.jsx
+msgid "Cardio"
+msgstr "Cardio"
+
+#: src/components/products/ProductForm.jsx
+#: src/pages/Produits.jsx
+msgid "Catégorie"
+msgstr "Catégorie"
+
+#: src/pages/ProduitDetail.jsx
+msgid "Ce produit est actuellement en rupture de stock ou n'est plus disponible."
+msgstr "Ce produit est actuellement en rupture de stock ou n'est plus disponible."
+
+#: src/pages/SellerProfile.jsx
+msgid "Ce profil n'existe pas ou n'est plus disponible."
+msgstr "Ce profil n'existe pas ou n'est plus disponible."
+
+#: src/pages/SellerProfile.jsx
+msgid "Ce vendeur n'a pas d'annonce en ligne"
+msgstr "Ce vendeur n'a pas d'annonce en ligne"
+
+#: src/pages/SellerProfile.jsx
+msgid "Ce vendeur n'a pas encore reçu d'avis client."
+msgstr "Ce vendeur n'a pas encore reçu d'avis client."
+
+#: src/pages/TermsOfService.jsx
+msgid "Ces CGU peuvent évoluer. La date de dernière mise à jour est indiquée en haut de cette page."
+msgstr "Ces CGU peuvent évoluer. La date de dernière mise à jour est indiquée en haut de cette page."
+
+#: src/pages/Settings.jsx
+msgid "Cette action est définitive et irréversible. Toutes vos données seront perdues."
+msgstr "Cette action est définitive et irréversible. Toutes vos données seront perdues."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Cette politique peut évoluer. La date de dernière mise à jour est indiquée en haut de cette page."
+msgstr "Cette politique peut évoluer. La date de dernière mise à jour est indiquée en haut de cette page."
+
+#: src/components/profile/ProfilHeader.jsx
+msgid "Changer la photo de profil"
+msgstr "Changer la photo de profil"
+
+#: src/pages/Orders.jsx
+msgid "Chargement des commandes..."
+msgstr "Chargement des commandes..."
+
+#: src/pages/Checkout.jsx
+msgid "Chargement du panier..."
+msgstr "Chargement du panier..."
+
+#: src/pages/Messagerie.jsx
+#: src/pages/Profile.jsx
+msgid "Chargement..."
+msgstr "Chargement..."
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "Chargement…"
+msgstr "Chargement…"
+
+#: src/hooks/useLoginForm.jsx
+msgid "Choisis un nom d'utilisateur."
+msgstr "Choisis un nom d'utilisateur."
+
+#: src/components/chat/ChatThread.jsx
+msgid "Choisis une discussion dans la liste, ou démarre-en une nouvelle."
+msgstr "Choisis une discussion dans la liste, ou démarre-en une nouvelle."
+
+#: src/components/reviews/ReviewCard.jsx
+#: src/hooks/useReviewForm.jsx
+msgid "Choisis une note entre 1 et 5 étoiles."
+msgstr "Choisis une note entre 1 et 5 étoiles."
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "code"
+msgstr "code"
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "Code à six chiffres"
+msgstr "Code à six chiffres"
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "Code de l’application ou code de secours"
+msgstr "Code de l’application ou code de secours"
+
+#: src/pages/ProduitDetail.jsx
+#: src/pages/Produits.jsx
+#: src/utils/constants.jsx
+msgid "Combat"
+msgstr "Combat"
+
+#. placeholder {0}: order.id
+#: src/pages/Orders.jsx
+msgid "Commande #{0}"
+msgstr "Commande n° {0}"
+
+#: src/pages/Faq.jsx
+msgid "Comment déposer une annonce ?"
+msgstr "Comment déposer une annonce ?"
+
+#: src/pages/Faq.jsx
+msgid "Comment fonctionnent les paiements ?"
+msgstr "Comment fonctionnent les paiements ?"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Complément"
+msgstr "Complément d'adresse"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Complément (optionnel)"
+msgstr "Complément d'adresse (optionnel)"
+
+#: src/pages/Faq.jsx
+msgid "Compte & Inscription"
+msgstr "Compte & Inscription"
+
+#: src/pages/Settings.jsx
+msgid "Compte supprimé avec succès."
+msgstr "Compte supprimé avec succès."
+
+#: src/components/layouts/Footer.jsx
+msgid "Conditions générales"
+msgstr "Conditions générales"
+
+#: src/pages/TermsOfService.jsx
+msgid "Conditions générales d'utilisation"
+msgstr "Conditions générales d'utilisation"
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "Configurer"
+msgstr "Configurer"
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "Confirmer l’activation"
+msgstr "Confirmer l’activation"
+
+#: src/pages/ProduitDetail.jsx
+msgid "Confirmer la suppression"
+msgstr "Confirmer la suppression"
+
+#: src/components/checkout/checkoutForm.jsx
+msgid "Confirmer le règlement"
+msgstr "Confirmer le règlement"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Conformément au RGPD, vous disposez des droits suivants sur vos données :"
+msgstr "Conformément au RGPD, vous disposez des droits suivants sur vos données :"
+
+#: src/pages/Messagerie.jsx
+msgid "Connecte-toi pour accéder à ta messagerie"
+msgstr "Connecte-toi pour accéder à ta messagerie"
+
+#: src/pages/Settings.jsx
+msgid "Connectez-vous à votre compte pour accéder à vos paramètres personnels, gérer votre profil et vos préférences."
+msgstr "Connectez-vous à votre compte pour accéder à vos paramètres personnels, gérer votre profil et vos préférences."
+
+#: src/pages/Profile.jsx
+msgid "Connectez-vous pour accéder à votre page profil, gérer vos annonces et consulter vos avis."
+msgstr "Connectez-vous pour accéder à votre page profil, gérer vos annonces et consulter vos avis."
+
+#: src/components/layouts/Footer.jsx
+msgid "Connexion / Inscription"
+msgstr "Connexion / Inscription"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Conserver le contenu de votre panier entre deux visites"
+msgstr "Conserver le contenu de votre panier entre deux visites"
+
+#: src/pages/Orders.jsx
+msgid "Consultez l'historique et le détail de vos achats passés."
+msgstr "Consultez l'historique et le détail de vos achats passés."
+
+#: src/pages/PrivacyPolicy.jsx
+#: src/pages/TermsOfService.jsx
+msgid "Contact"
+msgstr "Contact"
+
+#: src/pages/ProduitDetail.jsx
+msgid "Contacter le vendeur"
+msgstr "Contacter le vendeur"
+
+#: src/pages/Login.jsx
+msgid "Content de te revoir"
+msgstr "Content de te revoir"
+
+#: src/pages/TermsOfService.jsx
+msgid "Contenus interdits"
+msgstr "Contenus interdits"
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "Continuer"
+msgstr "Continuer"
+
+#: src/pages/Checkout.jsx
+msgid "Continuer les achats"
+msgstr "Continuer les achats"
+
+#: src/pages/Orders.jsx
+msgid "Continuer mes achats"
+msgstr "Continuer mes achats"
+
+#: src/pages/CartPopover.jsx
+msgid "Continuer vos achats"
+msgstr "Continuer vos achats"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Cookie de rafraîchissement"
+msgstr "Cookie de rafraîchissement"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Cookie httpOnly (essentiel)"
+msgstr "Cookie httpOnly (essentiel)"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Cookies et stockage local"
+msgstr "Cookies et stockage local"
+
+#: src/pages/Settings.jsx
+#~ msgid "Credit Account"
+#~ msgstr "Créditer le compte"
+
+#: src/pages/Settings.jsx
+msgid "Créditer le compte"
+msgstr "Créditer le compte"
+
+#: src/pages/Login.jsx
+msgid "Crée ton compte en quelques secondes"
+msgstr "Crée ton compte en quelques secondes"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Créer et gérer votre compte, vous authentifier."
+msgstr "Créer et gérer votre compte, vous authentifier."
+
+#: src/components/products/ProductForm.jsx
+msgid "Créer le produit"
+msgstr "Créer le produit"
+
+#: src/pages/Login.jsx
+msgid "Créer mon compte"
+msgstr "Créer mon compte"
+
+#: src/pages/Profile.jsx
+#: src/pages/Settings.jsx
+msgid "Créer un compte"
+msgstr "Créer un compte"
+
+#: src/pages/Settings.jsx
+#~ msgid "Danger Zone"
+#~ msgstr "Zone de danger"
+
+#: src/pages/Settings.jsx
+#~ msgid "Dark mode"
+#~ msgstr "Mode sombre"
+
+#: src/pages/Settings.jsx
+#~ msgid "Dark theme active"
+#~ msgstr "Thème sombre activé"
+
+#: src/pages/Orders.jsx
+msgid "Date inconnue"
+msgstr "Date inconnue"
+
+#: src/components/layouts/Navbar.jsx
+msgid "Déconnexion"
+msgstr "Déconnexion"
+
+#: src/pages/Home.jsx
+msgid "Découvrez nos meilleurs produits ou pas pour vous"
+msgstr "Découvrez nos meilleurs produits ou pas pour vous"
+
+#: src/pages/CartPopover.jsx
+#~ msgid "Decouvrez nos produits"
+#~ msgstr "Découvrez nos produits"
+
+#: src/pages/Checkout.jsx
+msgid "Découvrez nos produits et commencez à faire vos achats"
+msgstr "Découvrez nos produits et commencez à faire vos achats"
+
+#: src/pages/CartPopover.jsx
+#: src/pages/Orders.jsx
+msgid "Découvrir les produits"
+msgstr "Découvrir les produits"
+
+#: src/components/reviews/ReviewForm.jsx
+msgid "Décris ton expérience avec ce vendeur..."
+msgstr "Décris ton expérience avec ce vendeur..."
+
+#: src/components/products/ProductForm.jsx
+msgid "Décris ton produit en détail..."
+msgstr "Décris ton produit en détail..."
+
+#: src/pages/Login.jsx
+msgid "Déjà un compte ?"
+msgstr "Déjà un compte ?"
+
+#: src/pages/SuccessCheckout.jsx
+msgid "Délai estimé"
+msgstr "Délai estimé"
+
+#: src/pages/Settings.jsx
+#~ msgid "Delete Account"
+#~ msgstr "Supprimer le compte"
+
+#: src/pages/Settings.jsx
+#~ msgid "Deleting..."
+#~ msgstr "Suppression en cours..."
+
+#: src/pages/NotificationPopover.jsx
+msgid "Demande acceptée"
+msgstr "Demande acceptée"
+
+#: src/pages/NotificationPopover.jsx
+msgid "Demande d'ami"
+msgstr "Demande d'ami"
+
+#: src/components/friends/FriendActionButton.jsx
+msgid "Demande envoyée · Annuler"
+msgstr "Demande envoyée · Annuler"
+
+#: src/pages/NotificationPopover.jsx
+msgid "Demande refusée"
+msgstr "Demande refusée"
+
+#. placeholder {0}: sentFriendRequests.length
+#: src/pages/Profile.jsx
+msgid "Demandes envoyées ({0})"
+msgstr "Demandes envoyées ({0})"
+
+#. placeholder {0}: receivedFriendRequests.length
+#: src/pages/Profile.jsx
+msgid "Demandes reçues ({0})"
+msgstr "Demandes reçues ({0})"
+
+#: src/components/chat/ConversationsSidebar.jsx
+msgid "Démarrer une discussion"
+msgstr "Démarrer une discussion"
+
+#: src/components/layouts/LegalPageLayout.jsx
+msgid "Dernière mise à jour : {lastUpdated}"
+msgstr "Dernière mise à jour : {lastUpdated}"
+
+#: src/pages/Faq.jsx
+msgid "Dernière mise à jour : 8 septembre 2026"
+msgstr "Dernière mise à jour : 8 septembre 2026"
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "Désactiver"
+msgstr "Désactiver"
+
+#: src/components/products/ProductForm.jsx
+msgid "Description"
+msgstr "Description"
+
+#: src/pages/ProduitDetail.jsx
+msgid "Description à venir."
+msgstr "Description à venir."
+
+#: src/pages/Settings.jsx
+#~ msgid "Developer Mode"
+#~ msgstr "Mode développeur"
+
+#: src/pages/Settings.jsx
+#~ msgid "Developer mode unlocked!"
+#~ msgstr "Mode développeur déverrouillé !"
+
+#: src/pages/Settings.jsx
+msgid "Déverrouillé"
+msgstr "Déverrouillé"
+
+#: src/pages/CartPopover.jsx
+#: src/pages/ProduitDetail.jsx
+msgid "Diminuer la quantité"
+msgstr "Diminuer la quantité"
+
+#: src/pages/Produits.jsx
+msgid "Diminuer le prix maximum"
+msgstr "Diminuer le prix maximum"
+
+#: src/pages/Produits.jsx
+msgid "Diminuer le prix minimum"
+msgstr "Diminuer le prix minimum"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Données que nous collectons"
+msgstr "Données que nous collectons"
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "Double authentification"
+msgstr "Double authentification"
+
+#: src/pages/Settings.jsx
+msgid "Double authentification (2FA)"
+msgstr "Double authentification (2FA)"
+
+#: src/pages/TermsOfService.jsx
+msgid "Droit applicable"
+msgstr "Droit applicable"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Durée de conservation"
+msgstr "Durée de conservation"
+
+#: src/hooks/useReviewForm.jsx
+msgid "Écris un commentaire avant de publier."
+msgstr "Écris un commentaire avant de publier."
+
+#: src/components/chat/ChatThread.jsx
+msgid "Écris un message..."
+msgstr "Écris un message..."
+
+#: src/components/profile/ProfilInfos.jsx
+#: src/pages/Login.jsx
+msgid "Email"
+msgstr "E-mail"
+
+#: src/pages/Orders.jsx
+msgid "En attente"
+msgstr "En attente"
+
+#: src/pages/Profile.jsx
+msgid "En attente de réponse"
+msgstr "En attente de réponse"
+
+#: src/components/products/ProductForm.jsx
+msgid "Enregistrer les modifications"
+msgstr "Enregistrer les modifications"
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "Enregistrez le secret dans votre application d'authentification (TOTP).<0/>Ne le partagez à personne car il permet la génération de codes d'accès."
+msgstr "Enregistrez le secret dans votre application d'authentification (TOTP).<0/>Ne le partagez à personne car il permet la génération de codes d'accès."
+
+#: src/pages/Settings.jsx
+#~ msgid "Enter secret passphrase..."
+#~ msgstr "Entrez la phrase secrète..."
+
+#: src/utils/constants.jsx
+msgid "Entrainement"
+msgstr "Entrainement"
+
+#: src/pages/ProduitDetail.jsx
+#: src/pages/Produits.jsx
+msgid "Entraînement"
+msgstr "Entraînement"
+
+#: src/pages/Settings.jsx
+msgid "Entrez la phrase secrète..."
+msgstr "Entrez la phrase secrète..."
+
+#: src/components/chat/ChatThread.jsx
+msgid "Envoyer"
+msgstr "Envoyer"
+
+#: src/pages/Profile.jsx
+msgid "Envoyez des demandes d'amitié pour rejoindre d'autres utilisateurs"
+msgstr "Envoyez des demandes d'amitié pour rejoindre d'autres utilisateurs"
+
+#: src/pages/ProduitDetail.jsx
+#: src/pages/Settings.jsx
+msgid "Erreur lors de la suppression."
+msgstr "Erreur lors de la suppression."
+
+#: src/pages/Settings.jsx
+msgid "Erreur lors du rechargement du portefeuille."
+msgstr "Erreur lors du rechargement du portefeuille."
+
+#: src/pages/Settings.jsx
+#~ msgid "Error crediting wallet."
+#~ msgstr "Erreur lors du crédit du portefeuille."
+
+#: src/pages/Settings.jsx
+#~ msgid "Error during deletion."
+#~ msgstr "Erreur lors de la suppression."
+
+#: src/components/products/ProductForm.jsx
+msgid "Ex: Chaise ergonomique"
+msgstr "Ex : Chaise ergonomique"
+
+#: src/components/products/ProductForm.jsx
+msgid "Ex: Équipements de frappe"
+msgstr "Ex : Équipements de frappe"
+
+#: src/components/layouts/Footer.jsx
+msgid "FAQ"
+msgstr "FAQ"
+
+#: src/components/chat/SelectUserModal.jsx
+#: src/components/products/ProductCard.jsx
+msgid "Fermer"
+msgstr "Fermer"
+
+#: src/components/UI/Popover.jsx
+msgid "Fermer popover"
+msgstr "Fermer le popover"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Finalité"
+msgstr "Finalité"
+
+#: src/pages/Faq.jsx
+msgid "Foire aux questions (FAQ)"
+msgstr "Foire aux questions (FAQ)"
+
+#: src/pages/TermsOfService.jsx
+msgid "Fonctionnement de la marketplace"
+msgstr "Fonctionnement de la marketplace"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "France"
+msgstr "France"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Garder votre session connectée sans redemander votre mot de passe"
+msgstr "Garder votre session connectée sans redemander votre mot de passe"
+
+#: src/pages/Faq.jsx
+msgid "Généralités"
+msgstr "Généralités"
+
+#: src/pages/Faq.jsx
+msgid "Grâce à notre Service Worker intégré, le site dispose d'une résilience hors-ligne. Vous pouvez continuer à consulter les pages mises en cache et un écran de secours s'affiche si la connexion au serveur est totalement rompue."
+msgstr "Grâce à notre Service Worker intégré, le site dispose d'une résilience hors-ligne. Vous pouvez continuer à consulter les pages mises en cache et un écran de secours s'affiche si la connexion au serveur est totalement rompue."
+
+#: src/pages/Settings.jsx
+msgid "Identifiant utilisateur introuvable."
+msgstr "Identifiant utilisateur introuvable."
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Île-de-France"
+msgstr "Île-de-France"
+
+#: src/components/products/ProductForm.jsx
+msgid "Image actuelle"
+msgstr "Image actuelle"
+
+#: src/components/products/ProductForm.jsx
+msgid "Image du produit"
+msgstr "Image du produit"
+
+#: src/hooks/useProfileEditForm.jsx
+msgid "Image trop lourde (5 Mo max)."
+msgstr "Image trop lourde (5 Mo max)."
+
+#: src/components/products/ProductCard.jsx
+#: src/pages/ProduitDetail.jsx
+msgid "Impossible d'ajouter cet article au panier."
+msgstr "Impossible d'ajouter cet article au panier."
+
+#: src/pages/Checkout.jsx
+msgid "Impossible d'initialiser le formulaire de paiement."
+msgstr "Impossible d'initialiser le formulaire de paiement."
+
+#: src/pages/Orders.jsx
+msgid "Impossible de charger vos commandes."
+msgstr "Impossible de charger vos commandes."
+
+#: src/components/products/ProductCard.jsx
+msgid "Impossible de supprimer cet article."
+msgstr "Impossible de supprimer cet article."
+
+#: src/pages/TermsOfService.jsx
+msgid "Inscription et compte"
+msgstr "Inscription et compte"
+
+#: src/pages/Profile.jsx
+msgid "Introuvable, réessaie après rechargement"
+msgstr "Introuvable, réessaie après rechargement"
+
+#: src/pages/Settings.jsx
+#~ msgid "Invalid secret pass phrase."
+#~ msgstr "Phrase secrète non valide."
+
+#: src/hooks/useProfileEditForm.jsx
+msgid "L'email ne peut pas être vide."
+msgstr "L'email ne peut pas être vide."
+
+#: src/components/products/ProductForm.jsx
+msgid "L'image ne peut pas être modifiée depuis ce formulaire pour l'instant."
+msgstr "L'image ne peut pas être modifiée depuis ce formulaire pour l'instant."
+
+#: src/pages/TermsOfService.jsx
+msgid "L'utilisation du site implique l'acceptation pleine et entière des présentes conditions générales d'utilisation (CGU). La navigation et la consultation des annonces sont libres ; la création d'un compte est nécessaire pour vendre, laisser un avis ou envoyer un message."
+msgstr "L'utilisation du site implique l'acceptation pleine et entière des présentes conditions générales d'utilisation (CGU). La navigation et la consultation des annonces sont libres ; la création d'un compte est nécessaire pour vendre, laisser un avis ou envoyer un message."
+
+#: src/pages/Faq.jsx
+msgid "La création de compte est-elle obligatoire ?"
+msgstr "La création de compte est-elle obligatoire ?"
+
+#: src/hooks/useProductForm.jsx
+msgid "La description doit faire au moins 10 caractères."
+msgstr "La description doit faire au moins 10 caractères."
+
+#: src/pages/TermsOfService.jsx
+msgid "La messagerie sert à échanger avec d'autres utilisateurs dans le cadre d'une transaction. Vous vous engagez à un usage loyal : pas de harcèlement, de contenu illicite ou de sollicitation commerciale non liée à la plateforme. Vos messages restent privés entre vous et votre interlocuteur."
+msgstr "La messagerie sert à échanger avec d'autres utilisateurs dans le cadre d'une transaction. Vous vous engagez à un usage loyal : pas de harcèlement, de contenu illicite ou de sollicitation commerciale non liée à la plateforme. Vos messages restent privés entre vous et votre interlocuteur."
+
+#: src/pages/Faq.jsx
+msgid "La navigation sur la liste des annonces est publique. En revanche, un compte personnel est nécessaire pour déposer un article, ajouter un favori, discuter avec un vendeur ou laisser une évaluation."
+msgstr "La navigation sur la liste des annonces est publique. En revanche, un compte personnel est nécessaire pour déposer un article, ajouter un favori, discuter avec un vendeur ou laisser une évaluation."
+
+#: src/pages/NotFound.jsx
+msgid "La page que tu cherches n'existe pas."
+msgstr "La page que tu cherches n'existe pas."
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Laisse tous les champs vides si tu ne veux pas renseigner d'adresse pour l'instant."
+msgstr "Laisse tous les champs vides si tu ne veux pas renseigner d'adresse pour l'instant."
+
+#: src/components/reviews/ReviewForm.jsx
+msgid "Laisser un avis"
+msgstr "Laisser un avis"
+
+#: src/pages/Settings.jsx
+msgid "Langue de l'application"
+msgstr "Langue de l'application"
+
+#: src/pages/Checkout.jsx
+#~ msgid "Le budget est insuffisant !"
+#~ msgstr "Le budget est insuffisant !"
+
+#: src/pages/TermsOfService.jsx
+msgid "Le code, le design et la marque TheGoodCorner sont la propriété de l'équipe du projet. Les photos et descriptions que vous publiez restent votre propriété ; en les publiant, vous accordez à TheGoodCorner le droit de les afficher sur la plateforme dans le cadre de son fonctionnement normal."
+msgstr "Le code, le design et la marque TheGoodCorner sont la propriété de l'équipe du projet. Les photos et descriptions que vous publiez restent votre propriété ; en les publiant, vous accordez à TheGoodCorner le droit de les afficher sur la plateforme dans le cadre de son fonctionnement normal."
+
+#: src/components/reviews/ReviewCard.jsx
+msgid "Le commentaire ne peut pas être aussi long."
+msgstr "Le commentaire ne peut pas être aussi long."
+
+#: src/components/reviews/ReviewCard.jsx
+msgid "Le commentaire ne peut pas être vide."
+msgstr "Le commentaire ne peut pas être vide."
+
+#: src/hooks/useProfileEditForm.jsx
+msgid "Le fichier doit être une image (PNG ou JPEG)."
+msgstr "Le fichier doit être une image (PNG ou JPEG)."
+
+#: src/pages/TermsOfService.jsx
+msgid "Le mot de passe doit comporter au minimum 6 caractères."
+msgstr "Le mot de passe doit comporter au minimum 6 caractères."
+
+#: src/hooks/useLoginForm.jsx
+msgid "Le mot de passe doit faire au moins 6 caractères."
+msgstr "Le mot de passe doit faire au moins 6 caractères."
+
+#: src/hooks/useProductForm.jsx
+msgid "Le nom du produit est requis."
+msgstr "Le nom du produit est requis."
+
+#: src/hooks/useProductForm.jsx
+msgid "Le prix doit être supérieur à 0 et inférieur à 10 000."
+msgstr "Le prix doit être supérieur à 0 et inférieur à 10 000."
+
+#: src/hooks/useProductForm.jsx
+msgid "Le prix doit être un nombre valide."
+msgstr "Le prix doit être un nombre valide."
+
+#: src/pages/PrivacyPolicy.jsx
+#: src/pages/TermsOfService.jsx
+msgid "Le service est réservé aux personnes majeures (18 ans et plus)."
+msgstr "Le service est réservé aux personnes majeures (18 ans et plus)."
+
+#: src/pages/Faq.jsx
+msgid "Le site fonctionne-t-il sans connexion Internet ?"
+msgstr "Le site fonctionne-t-il sans connexion Internet ?"
+
+#: src/pages/Settings.jsx
+msgid "Le solde total ne peut pas dépasser {MAX_AMOUNT}€. (Solde actuel : {currentBudget}€)"
+msgstr "Le solde total ne peut pas dépasser {MAX_AMOUNT} €. (Solde actuel : {currentBudget} €)"
+
+#: src/pages/Faq.jsx
+msgid "Le système intègre un tunnel de test (ex: Stripe sandbox ou solde virtuel de portefeuille). Aucune vraie coordonnée bancaire n'est débitée. La remise de l'article peut également s'organiser en main propre via le chat."
+msgstr "Le système intègre un tunnel de test (ex: Stripe sandbox ou solde virtuel de portefeuille). Aucune vraie coordonnée bancaire n'est débitée. La remise de l'article peut également s'organiser en main propre via le chat."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Le traitement de vos données repose sur l'exécution du contrat qui nous lie (création de compte, utilisation des fonctionnalités de la marketplace) et, pour le stockage local non essentiel (thème, panier), sur votre consentement implicite à l'usage du site."
+msgstr "Le traitement de vos données repose sur l'exécution du contrat qui nous lie (création de compte, utilisation des fonctionnalités de la marketplace) et, pour le stockage local non essentiel (thème, panier), sur votre consentement implicite à l'usage du site."
+
+#: src/pages/Faq.jsx
+msgid "Les messages sont-ils instantanés ?"
+msgstr "Les messages sont-ils instantanés ?"
+
+#: src/pages/TermsOfService.jsx
+msgid "Les présentes CGU sont soumises au droit français."
+msgstr "Les présentes CGU sont soumises au droit français."
+
+#: src/pages/Settings.jsx
+#~ msgid "Light theme active"
+#~ msgstr "Thème clair activé"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Localisation"
+msgstr "Localisation"
+
+#: src/pages/Checkout.jsx
+msgid "Logo 42"
+msgstr "Logo 42"
+
+#: src/pages/Faq.jsx
+msgid "Longueur minimale de 6 caractères."
+msgstr "Longueur minimale de 6 caractères."
+
+#: src/pages/Settings.jsx
+msgid "Masquer le panneau de configuration"
+msgstr "Masquer le panneau de configuration"
+
+#: src/pages/ProduitDetail.jsx
+#: src/pages/SellerProfile.jsx
+msgid "Membre depuis {memberSince}"
+msgstr "Membre depuis {memberSince}"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Mémoriser le thème clair/sombre choisi"
+msgstr "Mémoriser le thème clair/sombre choisi"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Mémoriser vos préférences (thème, panier) pour une expérience plus fluide."
+msgstr "Mémoriser vos préférences (thème, panier) pour une expérience plus fluide."
+
+#: src/components/layouts/Navbar.jsx
+msgid "Menu"
+msgstr "Menu"
+
+#: src/pages/TooManyRequests.jsx
+msgid "Merci de patienter quelques instants..."
+msgstr "Merci de patienter quelques instants..."
+
+#: src/hooks/useLoginForm.jsx
+msgid "Merci de renseigner ton email."
+msgstr "Merci de renseigner ton email."
+
+#: src/hooks/useLoginForm.jsx
+msgid "Merci de renseigner ton mot de passe."
+msgstr "Merci de renseigner ton mot de passe."
+
+#: src/pages/SuccessCheckout.jsx
+msgid "Merci pour votre commande. La transaction a été validée par Stripe et vos articles sont en cours de préparation."
+msgstr "Merci pour votre commande. La transaction a été validée par Stripe et vos articles sont en cours de préparation."
+
+#: src/components/reviews/ReviewForm.jsx
+msgid "Merci, ton avis a été publié !"
+msgstr "Merci, ton avis a été publié !"
+
+#. placeholder {0}: friends.length
+#. placeholder {0}: friends?.length || 0
+#: src/pages/Profile.jsx
+msgid "Mes amis ({0})"
+msgstr "Mes amis ({0})"
+
+#: src/pages/Produits.jsx
+msgid "Mes annonces"
+msgstr "Mes annonces"
+
+#. placeholder {0}: user?.product?.length || 0
+#: src/pages/Profile.jsx
+msgid "Mes Annonces ({0})"
+msgstr "Mes Annonces ({0})"
+
+#: src/pages/Profile.jsx
+msgid "Mes avis"
+msgstr "Mes avis"
+
+#: src/components/layouts/Navbar.jsx
+msgid "Mes commandes"
+msgstr "Mes commandes"
+
+#: src/pages/Orders.jsx
+msgid "Mes Commandes"
+msgstr "Mes commandes"
+
+#: src/components/layouts/Footer.jsx
+msgid "Mes Discussions"
+msgstr "Mes discussions"
+
+#: src/components/layouts/Navbar.jsx
+#: src/pages/Messagerie.jsx
+#: src/pages/TermsOfService.jsx
+msgid "Messagerie"
+msgstr "Messagerie"
+
+#: src/pages/Faq.jsx
+msgid "Messagerie & Notifications"
+msgstr "Messagerie & Notifications"
+
+#: src/pages/Settings.jsx
+msgid "Mode Développeur"
+msgstr "Mode développeur"
+
+#: src/pages/Settings.jsx
+msgid "Mode développeur déverrouillé !"
+msgstr "Mode développeur déverrouillé !"
+
+#: src/pages/Settings.jsx
+msgid "Mode sombre"
+msgstr "Mode sombre"
+
+#: src/pages/TermsOfService.jsx
+msgid "Modification des CGU"
+msgstr "Modification des CGU"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Modifications"
+msgstr "Modifications"
+
+#: src/components/chat/MessageBubble.jsx
+msgid "modifié"
+msgstr "modifié"
+
+#: src/components/profile/ProfilHeader.jsx
+msgid "Modifier"
+msgstr "Modifier"
+
+#: src/components/reviews/ReviewCard.jsx
+msgid "Modifier cet avis"
+msgstr "Modifier cet avis"
+
+#: src/components/products/ProductCard.jsx
+msgid "Modifier l'annonce"
+msgstr "Modifier l'annonce"
+
+#: src/components/reviews/ReviewCard.jsx
+msgid "Modifier le commentaire"
+msgstr "Modifier le commentaire"
+
+#: src/components/chat/MessageBubble.jsx
+msgid "Modifier le message"
+msgstr "Modifier le message"
+
+#: src/components/layouts/Navbar.jsx
+msgid "Mon profil"
+msgstr "Mon profil"
+
+#: src/pages/Settings.jsx
+msgid "Montant à créditer"
+msgstr "Montant à créditer"
+
+#: src/components/profile/TwoFactorSettings.jsx
+#: src/pages/Login.jsx
+msgid "Mot de passe"
+msgstr "Mot de passe"
+
+#: src/components/layouts/Footer.jsx
+msgid "Navigation"
+msgstr "Navigation"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Nom"
+msgstr "Nom"
+
+#: src/pages/Login.jsx
+msgid "Nom d'utilisateur"
+msgstr "Nom d'utilisateur"
+
+#: src/components/products/ProductForm.jsx
+msgid "Nom du produit"
+msgstr "Nom du produit"
+
+#: src/utils/constants.jsx
+msgid "Non catégorisé"
+msgstr "Non catégorisé"
+
+#: src/components/profile/ProfilInfos.jsx
+#: src/components/UI/InfoCard.jsx
+msgid "Non renseigné"
+msgstr "Non renseigné"
+
+#: src/pages/Faq.jsx
+msgid "Non, la plateforme bloque techniquement la commande et l'ajout au panier pour les annonces dont vous êtes vous-même l'auteur."
+msgstr "Non, la plateforme bloque techniquement la commande et l'ajout au panier pour les annonces dont vous êtes vous-même l'auteur."
+
+#: src/pages/Produits.jsx
+msgid "Nos Produits"
+msgstr "Nos produits"
+
+#: src/pages/Home.jsx
+msgid "Nos produits en vente"
+msgstr "Nos produits en vente"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Note moyenne"
+msgstr "Note moyenne"
+
+#: src/pages/NotificationPopover.jsx
+#: src/pages/Settings.jsx
+msgid "Notifications"
+msgstr "Notifications"
+
+#: src/pages/Settings.jsx
+msgid "Notifications activées"
+msgstr "Notifications activées"
+
+#: src/pages/Settings.jsx
+msgid "Notifications désactivées"
+msgstr "Notifications désactivées"
+
+#: src/pages/Settings.jsx
+#~ msgid "Notifications disabled"
+#~ msgstr "Notifications désactivées"
+
+#: src/pages/Settings.jsx
+#~ msgid "Notifications enabled"
+#~ msgstr "Notifications activées"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Nous n'utilisons pas vos données à des fins de prospection commerciale, de publicité ciblée ou de revente à des tiers."
+msgstr "Nous n'utilisons pas vos données à des fins de prospection commerciale, de publicité ciblée ou de revente à des tiers."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Nous ne collectons aucune donnée bancaire : le paiement en ligne n'est pas encore disponible sur la plateforme à ce stade du projet (voir les <0>CGU</0>)."
+msgstr "Nous ne collectons aucune donnée bancaire : le paiement en ligne n'est pas encore disponible sur la plateforme à ce stade du projet (voir les <0>CGU</0>)."
+
+#: src/pages/TermsOfService.jsx
+msgid "Nous pouvons suspendre ou supprimer un compte en cas de non-respect manifeste des présentes CGU. Vous pouvez, de votre côté, supprimer votre compte via une requette à un administrateur de TGC France via le mail suivant : <0>contact@thegoodcorner.fr</0>"
+msgstr "Nous pouvons suspendre ou supprimer un compte en cas de non-respect manifeste des présentes CGU. Vous pouvez, de votre côté, supprimer votre compte via une requête à un administrateur de TGC France via le mail suivant : <0>contact@thegoodcorner.fr</0>"
+
+#: src/components/layouts/Footer.jsx
+msgid "Nous suivre"
+msgstr "Nous suivre"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Nous utilisons un seul cookie, strictement nécessaire au fonctionnement du site, ainsi que le stockage local de votre navigateur (localStorage) pour le confort d'usage :"
+msgstr "Nous utilisons un seul cookie, strictement nécessaire au fonctionnement du site, ainsi que le stockage local de votre navigateur (localStorage) pour le confort d'usage :"
+
+#: src/pages/ProduitDetail.jsx
+msgid "Nouveau membre"
+msgstr "Nouveau membre"
+
+#: src/pages/NotificationPopover.jsx
+msgid "Nouvel avis"
+msgstr "Nouvel avis"
+
+#: src/components/chat/ConversationListItem.jsx
+msgid "Nouvelle conversation"
+msgstr "Nouvelle conversation"
+
+#: src/components/chat/SelectUserModal.jsx
+#: src/pages/Messagerie.jsx
+msgid "Nouvelle discussion"
+msgstr "Nouvelle discussion"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Numéro"
+msgstr "Numéro"
+
+#: src/hooks/useProfileEditForm.jsx
+msgid "Numéro de téléphone invalide (10 chiffres requis)."
+msgstr "Numéro de téléphone invalide (10 chiffres requis)."
+
+#: src/pages/TermsOfService.jsx
+msgid "Objet"
+msgstr "Objet"
+
+#: src/pages/Settings.jsx
+#~ msgid "Once your account is deleted, all your data will be permanently removed from the system."
+#~ msgstr "Une fois votre compte supprimé, l'ensemble de vos données sera définitivement effacé du système."
+
+#: src/pages/Faq.jsx
+msgid "Oui, la messagerie et les alertes d'évaluation exploitent des websockets (Socket.IO). Vous recevez les nouveaux messages et mises à jour de statut utilisateur en direct sans avoir à rafraîchir la page."
+msgstr "Oui, la messagerie et les alertes d'évaluation exploitent des websockets (Socket.IO). Vous recevez les nouveaux messages et mises à jour de statut utilisateur en direct sans avoir à rafraîchir la page."
+
+#: src/pages/Produits.jsx
+msgid "Page {page}"
+msgstr "Page {page}"
+
+#: src/pages/NotFound.jsx
+msgid "Page introuvable"
+msgstr "Page introuvable"
+
+#: src/pages/Produits.jsx
+msgid "Page précédente"
+msgstr "Page précédente"
+
+#: src/pages/Produits.jsx
+msgid "Page suivante"
+msgstr "Page suivante"
+
+#: src/pages/Faq.jsx
+msgid "Paiement & Sécurité"
+msgstr "Paiement & Sécurité"
+
+#: src/pages/SuccessCheckout.jsx
+msgid "Paiement réussi !"
+msgstr "Paiement réussi !"
+
+#: src/pages/Checkout.jsx
+msgid "Paiement sécurisé avec Stripe • Données chiffrées • 100% confidentiel"
+msgstr "Paiement sécurisé avec Stripe • Données chiffrées • 100% confidentiel"
+
+#: src/components/layouts/Navbar.jsx
+msgid "Panier"
+msgstr "Panier"
+
+#: src/pages/CartPopover.jsx
+msgid "Panier vide"
+msgstr "Panier vide"
+
+#: src/components/layouts/Navbar.jsx
+#: src/pages/Settings.jsx
+msgid "Paramètres"
+msgstr "Paramètres"
+
+#: src/pages/Home.jsx
+msgid "Parcourir la boutique"
+msgstr "Parcourir la boutique"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Paris"
+msgstr "Paris"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Parle un peu de toi..."
+msgstr "Parle un peu de toi..."
+
+#: src/components/reviews/ReviewForm.jsx
+msgid "Partage ton expérience avec ce vendeur"
+msgstr "Partage ton expérience avec ce vendeur"
+
+#: src/pages/Login.jsx
+msgid "Pas encore de compte ?"
+msgstr "Pas encore de compte ?"
+
+#: src/pages/SuccessCheckout.jsx
+msgid "Payé"
+msgstr "Payé"
+
+#: src/pages/Orders.jsx
+msgid "Payée"
+msgstr "Payée"
+
+#. placeholder {0}: total.toFixed(2)
+#: src/pages/Checkout.jsx
+msgid "Payer {0} €"
+msgstr "Payer {0} €"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Pays"
+msgstr "Pays"
+
+#: src/pages/Settings.jsx
+#~ msgid "Permanently delete your account? This cannot be undone."
+#~ msgstr "Supprimer définitivement votre compte ? Cette action est irréversible."
+
+#: src/pages/Profile.jsx
+msgid "Personne ne vous a laissé d'avis pour l'instant"
+msgstr "Personne ne vous a laissé d'avis pour l'instant"
+
+#: src/pages/Profile.jsx
+#~ msgid "Personne vous a laisser d'avis pour l'instant"
+#~ msgstr "Personne ne vous a laissé d'avis pour l'instant"
+
+#: src/pages/Settings.jsx
+msgid "Phrase secrète"
+msgstr "Phrase secrète"
+
+#: src/pages/Settings.jsx
+msgid "Phrase secrète invalide."
+msgstr "Phrase secrète invalide."
+
+#: src/pages/Settings.jsx
+#~ msgid "Please enter a valid amount."
+#~ msgstr "Veuillez saisir un montant valide."
+
+#: src/components/layouts/Footer.jsx
+#: src/pages/PrivacyPolicy.jsx
+msgid "Politique de confidentialité"
+msgstr "Politique de confidentialité"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Portefeuille"
+msgstr "Portefeuille"
+
+#: src/pages/Faq.jsx
+msgid "Possibilité d'activer l'authentification à double facteur (2FA) dans les paramètres."
+msgstr "Possibilité d'activer l'authentification à double facteur (2FA) dans les paramètres."
+
+#: src/pages/Profile.jsx
+#~ msgid "Poster votre premier produit en remplissant le formulaire ci-dessous."
+#~ msgstr "Postez votre premier produit en remplissant le formulaire ci-dessous."
+
+#: src/pages/Profile.jsx
+msgid "Postez votre premier produit en remplissant le formulaire ci-dessous."
+msgstr "Postez votre premier produit en remplissant le formulaire ci-dessous."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Pour exercer ces droits, contactez-nous à <0>contact@thegoodcorner.fr</0>. Vous disposez également d'un droit de réclamation auprès de la <1>CNIL</1>."
+msgstr "Pour exercer ces droits, contactez-nous à <0>contact@thegoodcorner.fr</0>. Vous disposez également d'un droit de réclamation auprès de la <1>CNIL</1>."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Pour toute question sur vos données personnelles, vous pouvez nous écrire à <0>contact@thegoodcorner.fr</0>."
+msgstr "Pour toute question sur vos données personnelles, vous pouvez nous écrire à <0>contact@thegoodcorner.fr</0>."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Pourquoi nous les utilisons"
+msgstr "Pourquoi nous les utilisons"
+
+#: src/components/products/ProductForm.jsx
+msgid "Précise la catégorie personnalisée"
+msgstr "Précise la catégorie personnalisée"
+
+#: src/hooks/useProductForm.jsx
+msgid "Précise la catégorie personnalisée."
+msgstr "Précise la catégorie personnalisée."
+
+#: src/pages/Home.jsx
+msgid "Prêt à acheter un max de produit ?"
+msgstr "Prêt à acheter un max de produits ?"
+
+#: src/pages/Produits.jsx
+msgid "Prix"
+msgstr "Prix"
+
+#: src/components/products/ProductForm.jsx
+msgid "Prix (€)"
+msgstr "Prix (€)"
+
+#: src/pages/Produits.jsx
+msgid "Prix maximum"
+msgstr "Prix maximum"
+
+#: src/pages/CartPopover.jsx
+msgid "Procéder au paiement"
+msgstr "Procéder au paiement"
+
+#: src/components/reviews/ReviewCard.jsx
+msgid "Produit : <0>{product}</0>"
+msgstr "Produit : <0>{product}</0>"
+
+#: src/pages/ProduitDetail.jsx
+msgid "Produit indisponible"
+msgstr "Produit indisponible"
+
+#: src/hooks/useCartError.jsx
+msgid "Produit invalide."
+msgstr "Produit invalide."
+
+#: src/pages/Orders.jsx
+msgid "Produit supprimé"
+msgstr "Produit supprimé"
+
+#: src/components/layouts/Footer.jsx
+#: src/components/layouts/Navbar.jsx
+#: src/pages/ProduitDetail.jsx
+msgid "Produits"
+msgstr "Produits"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Produits publiés"
+msgstr "Produits publiés"
+
+#: src/pages/ProduitDetail.jsx
+msgid "Produits similaires"
+msgstr "Produits similaires"
+
+#: src/pages/ProduitDetail.jsx
+#: src/pages/Produits.jsx
+#: src/utils/constants.jsx
+msgid "Professionnel"
+msgstr "Professionnel"
+
+#: src/pages/TermsOfService.jsx
+msgid "Propriété intellectuelle"
+msgstr "Propriété intellectuelle"
+
+#: src/components/reviews/ReviewForm.jsx
+msgid "Publier mon avis"
+msgstr "Publier mon avis"
+
+#: src/pages/Faq.jsx
+msgid "Puis-je acheter mon propre article ?"
+msgstr "Puis-je acheter mon propre article ?"
+
+#: src/pages/Faq.jsx
+msgid "Qu'est-ce que TheGoodCorner ?"
+msgstr "Qu'est-ce que TheGoodCorner ?"
+
+#: src/pages/ProduitDetail.jsx
+msgid "Quantité"
+msgstr "Quantité"
+
+#. placeholder {0}: item.quantity
+#: src/pages/Orders.jsx
+msgid "Quantité : {0}"
+msgstr "Quantité : {0}"
+
+#. placeholder {0}: item.quantity || 1
+#: src/pages/Checkout.jsx
+msgid "Quantité : <0>{0}</0>"
+msgstr "Quantité : <0>{0}</0>"
+
+#. placeholder {0}: item.quantity || 1
+#: src/pages/Checkout.jsx
+#~ msgid "Quantité: <0>{0}</0>"
+#~ msgstr "Quantité : <0>{0}</0>"
+
+#: src/pages/Faq.jsx
+msgid "Quelles sont les exigences pour le mot de passe ?"
+msgstr "Quelles sont les exigences pour le mot de passe ?"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Qui sommes-nous"
+msgstr "Qui sommes-nous"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Qui y a accès"
+msgstr "Qui y a accès"
+
+#: src/pages/Checkout.jsx
+msgid "Récapitulatif de commande"
+msgstr "Récapitulatif de commande"
+
+#: src/components/chat/SelectUserModal.jsx
+msgid "Rechercher un utilisateur..."
+msgstr "Rechercher un utilisateur..."
+
+#: src/components/chat/ConversationsSidebar.jsx
+msgid "Rechercher une conversation..."
+msgstr "Rechercher une conversation..."
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "Recommencer"
+msgstr "Recommencer"
+
+#: src/pages/Profile.jsx
+#~ msgid "Refuser"
+#~ msgstr "Refuser"
+
+#: src/components/friends/FriendActionButton.jsx
+msgid "Refuser la demande"
+msgstr "Refuser la demande"
+
+#: src/pages/Profile.jsx
+msgid "Refuser la demande d'ami"
+msgstr "Refuser la demande d'ami"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Région"
+msgstr "Région"
+
+#: src/pages/Profile.jsx
+#~ msgid "Remplire les informations pour créer un nouveau produit"
+#~ msgstr "Remplir les informations pour créer un nouveau produit"
+
+#: src/pages/Profile.jsx
+msgid "Remplis les informations pour créer un nouveau produit"
+msgstr "Remplis les informations pour créer un nouveau produit"
+
+#: src/pages/SellerProfile.jsx
+msgid "Repasse plus tard pour voir ses prochains articles."
+msgstr "Repasse plus tard pour voir ses prochains articles."
+
+#: src/pages/TermsOfService.jsx
+msgid "Responsabilité"
+msgstr "Responsabilité"
+
+#: src/pages/CartPopover.jsx
+msgid "Retirer article du panier"
+msgstr "Retirer l'article du panier"
+
+#: src/pages/Checkout.jsx
+msgid "Retour"
+msgstr "Retour"
+
+#: src/pages/NotFound.jsx
+msgid "Retour à l'accueil"
+msgstr "Retour à l'accueil"
+
+#: src/pages/Login.jsx
+msgid "Retour à la boutique"
+msgstr "Retour à la boutique"
+
+#: src/pages/TooManyRequests.jsx
+msgid "Retour automatique dans {secondsLeft}s"
+msgstr "Retour automatique dans {secondsLeft}s"
+
+#: src/components/chat/ChatThread.jsx
+msgid "Retour aux conversations"
+msgstr "Retour aux conversations"
+
+#: src/pages/ProduitDetail.jsx
+#: src/pages/SellerProfile.jsx
+msgid "Retour aux produits"
+msgstr "Retour aux produits"
+
+#: src/pages/Settings.jsx
+msgid "Retourner à l'accueil"
+msgstr "Retourner à l'accueil"
+
+#: src/pages/SuccessCheckout.jsx
+msgid "Retourner sur les produits"
+msgstr "Retourner aux produits"
+
+#: src/pages/SuccessCheckout.jsx
+msgid "Retourner sur mon profil"
+msgstr "Retourner sur mon profil"
+
+#: src/pages/Messagerie.jsx
+msgid "Retrouve ici toutes tes conversations avec les autres utilisateurs."
+msgstr "Retrouve ici toutes tes conversations avec les autres utilisateurs."
+
+#: src/pages/Produits.jsx
+msgid "Retrouvez notre sélection de produits, de peer to peer"
+msgstr "Retrouvez notre sélection de produits, de pair à pair"
+
+#: src/pages/Home.jsx
+msgid "Retrouvez tous nos produits avec les meilleurs prix"
+msgstr "Retrouvez tous nos produits aux meilleurs prix"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Rue"
+msgstr "Rue"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Rue de Rivoli"
+msgstr "Rue de Rivoli"
+
+#: src/pages/Login.jsx
+msgid "S'inscrire"
+msgstr "S'inscrire"
+
+#: src/components/profile/ProfilHeader.jsx
+#: src/components/reviews/ReviewCard.jsx
+msgid "Sauvegarder"
+msgstr "Sauvegarder"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Savoir si une session est potentiellement active au chargement"
+msgstr "Savoir si une session est potentiellement active au chargement"
+
+#: src/components/layouts/Navbar.jsx
+#: src/pages/Checkout.jsx
+#: src/pages/Login.jsx
+#: src/pages/Messagerie.jsx
+#: src/pages/Profile.jsx
+#: src/pages/Settings.jsx
+msgid "Se connecter"
+msgstr "Se connecter"
+
+#: src/components/friends/FriendActionButton.jsx
+msgid "Se connecter pour ajouter en ami"
+msgstr "Se connecter pour ajouter en ami"
+
+#: src/components/layouts/Navbar.jsx
+msgid "Se déconnecter"
+msgstr "Se déconnecter"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Sécurité"
+msgstr "Sécurité"
+
+#: src/hooks/useProductForm.jsx
+msgid "Sélectionne une catégorie."
+msgstr "Sélectionne une catégorie."
+
+#: src/components/chat/ChatThread.jsx
+msgid "Sélectionne une conversation"
+msgstr "Sélectionne une conversation"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Selon votre usage du site, nous collectons :"
+msgstr "Selon votre usage du site, nous collectons :"
+
+#: src/pages/Settings.jsx
+#~ msgid "Settings"
+#~ msgstr "Paramètres"
+
+#: src/pages/Checkout.jsx
+msgid "Solde de votre portefeuille"
+msgstr "Solde de votre portefeuille"
+
+#: src/pages/Checkout.jsx
+msgid "Solde insuffisant pour finaliser cet achat"
+msgstr "Solde insuffisant pour finaliser cet achat"
+
+#: src/pages/CartPopover.jsx
+msgid "Solde portefeuille :"
+msgstr "Solde portefeuille :"
+
+#: src/components/layouts/LegalPageLayout.jsx
+msgid "Sommaire"
+msgstr "Sommaire"
+
+#: src/pages/Faq.jsx
+msgid "SOMMAIRE"
+msgstr "SOMMAIRE"
+
+#: src/pages/TermsOfService.jsx
+msgid "Sont notamment interdits : la vente d'articles illégaux ou contrefaits, tout contenu injurieux, discriminatoire ou diffamatoire, ainsi que l'usurpation d'identité."
+msgstr "Sont notamment interdits : la vente d'articles illégaux ou contrefaits, tout contenu injurieux, discriminatoire ou diffamatoire, ainsi que l'usurpation d'identité."
+
+#: src/pages/Profile.jsx
+msgid "Souhaite devenir ami avec toi"
+msgstr "Souhaite devenir ami avec toi"
+
+#: src/components/profile/ProfilInfos.jsx
+#: src/pages/SuccessCheckout.jsx
+msgid "Statut"
+msgstr "Statut"
+
+#: src/pages/Orders.jsx
+msgid "Statut inconnu"
+msgstr "Statut inconnu"
+
+#. placeholder {0}: error.currentCount
+#. placeholder {1}: error.maxStock
+#: src/hooks/useCartError.jsx
+msgid "Stock insuffisant : vous avez déjà {0} article(s) dans le panier pour un stock de {1}."
+msgstr "Stock insuffisant : vous avez déjà {0} article(s) dans le panier pour un stock de {1}."
+
+#. placeholder {0}: error.stock
+#: src/hooks/useCartError.jsx
+msgid "Stock limité à {0} unité(s)."
+msgstr "Stock limité à {0} unité(s)."
+
+#: src/components/layouts/Footer.jsx
+msgid "Support"
+msgstr "Support"
+
+#: src/pages/Faq.jsx
+msgid "Support & Contact"
+msgstr "Support & Contact"
+
+#: src/pages/Settings.jsx
+msgid "Suppression..."
+msgstr "Suppression en cours..."
+
+#: src/components/products/ProductCard.jsx
+#: src/pages/ProduitDetail.jsx
+#: src/pages/Profile.jsx
+msgid "Supprimer"
+msgstr "Supprimer"
+
+#: src/components/reviews/ReviewCard.jsx
+msgid "Supprimer cet avis"
+msgstr "Supprimer cet avis"
+
+#: src/pages/Profile.jsx
+msgid "Supprimer de la liste d'amis"
+msgstr "Supprimer de la liste d'amis"
+
+#: src/pages/Settings.jsx
+msgid "Supprimer définitivement"
+msgstr "Supprimer définitivement"
+
+#: src/components/products/ProductCard.jsx
+msgid "Supprimer l'annonce"
+msgstr "Supprimer l'annonce"
+
+#: src/components/products/ProductCard.jsx
+msgid "Supprimer l'annonce ?"
+msgstr "Supprimer l'annonce ?"
+
+#. placeholder {0}: interlocutor.username
+#: src/components/chat/ConversationListItem.jsx
+msgid "Supprimer la conversation avec {0}"
+msgstr "Supprimer la conversation avec {0}"
+
+#: src/pages/Settings.jsx
+msgid "Supprimer le compte"
+msgstr "Supprimer le compte"
+
+#: src/components/chat/MessageBubble.jsx
+msgid "Supprimer le message"
+msgstr "Supprimer le message"
+
+#: src/pages/Settings.jsx
+msgid "Supprimer votre compte ?"
+msgstr "Supprimer votre compte ?"
+
+#: src/pages/TermsOfService.jsx
+msgid "Suspension et résiliation"
+msgstr "Suspension et résiliation"
+
+#: src/components/reviews/ReviewForm.jsx
+msgid "Ta note"
+msgstr "Ta note"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Téléphone"
+msgstr "Téléphone"
+
+#. placeholder {0}: viewedUser.phoneNumber
+#: src/pages/SellerProfile.jsx
+msgid "Téléphone renseigné : {0}"
+msgstr "Téléphone renseigné : {0}"
+
+#: src/pages/TermsOfService.jsx
+msgid "TheGoodCorner est un intermédiaire technique et n'est pas partie aux transactions entre utilisateurs. Nous n'endossons ni la qualité, ni la légalité, ni la conformité des articles proposés à la vente. En cas de litige entre un acheteur et un vendeur, il appartient aux parties de le résoudre entre elles ; nous restons joignables pour vous assister en cas de manquement grave aux présentes CGU."
+msgstr "TheGoodCorner est un intermédiaire technique et n'est pas partie aux transactions entre utilisateurs. Nous n'endossons ni la qualité, ni la légalité, ni la conformité des articles proposés à la vente. En cas de litige entre un acheteur et un vendeur, il appartient aux parties de le résoudre entre elles ; nous restons joignables pour vous assister en cas de manquement grave aux présentes CGU."
+
+#: src/pages/Faq.jsx
+msgid "TheGoodCorner est un projet réalisé dans le cadre de la formation \"ft_transcendence\" du cursus de l'école 42-Paris. Les questions-réponses ci-dessous illustrent les fonctionnalités disponibles sur cette version d'évaluation."
+msgstr "TheGoodCorner est un projet réalisé dans le cadre de la formation « ft_transcendence » du cursus de l'école 42-Paris. Les questions-réponses ci-dessous illustrent les fonctionnalités disponibles sur cette version d'évaluation."
+
+#: src/components/layouts/LegalPageLayout.jsx
+msgid "TheGoodCorner est un projet réalisé dans le cadre du projet de formation \"ft_transcendence\" du cursus de l'école 42-Paris. Il n'a pas de valeur commerciale réelle, mais cette page est rédigée dans des conditions proches du réel pour les besoins de l'exercice."
+msgstr "TheGoodCorner est un projet réalisé dans le cadre du projet de formation « ft_transcendence » du cursus de l'école 42-Paris. Il n'a pas de valeur commerciale réelle, mais cette page est rédigée dans des conditions proches du réel pour les besoins de l'exercice."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "TheGoodCorner est une marketplace qui met en relation des particuliers pour l'achat et la vente d'articles d'occasion (matériel de sport, entraînement, combat...). Cette politique explique quelles données nous collectons lorsque vous utilisez le site, pourquoi, et quels droits vous pouvez exercer."
+msgstr "TheGoodCorner est une marketplace qui met en relation des particuliers pour l'achat et la vente d'articles d'occasion (matériel de sport, entraînement, combat...). Cette politique explique quelles données nous collectons lorsque vous utilisez le site, pourquoi, et quels droits vous pouvez exercer."
+
+#: src/pages/Faq.jsx
+msgid "TheGoodCorner est une plateforme de marketplace en ligne permettant à des particuliers d'acheter et de vendre des articles de seconde main, ainsi que d'échanger en temps réel via une messagerie intégrée."
+msgstr "TheGoodCorner est une plateforme de marketplace en ligne permettant à des particuliers d'acheter et de vendre des articles de seconde main, ainsi que d'échanger en temps réel via une messagerie intégrée."
+
+#: src/pages/TermsOfService.jsx
+msgid "TheGoodCorner est une plateforme qui met en relation des particuliers souhaitant vendre ou acheter des articles d'occasion. TheGoodCorner agit comme intermédiaire technique et n'est partie à aucune transaction conclue entre utilisateurs."
+msgstr "TheGoodCorner est une plateforme qui met en relation des particuliers souhaitant vendre ou acheter des articles d'occasion. TheGoodCorner agit comme intermédiaire technique et n'est partie à aucune transaction conclue entre utilisateurs."
+
+#: src/components/layouts/Navbar.jsx
+msgid "Thème"
+msgstr "Thème"
+
+#: src/pages/Settings.jsx
+msgid "Thème clair activé"
+msgstr "Thème clair activé"
+
+#: src/pages/Settings.jsx
+msgid "Thème sombre activé"
+msgstr "Thème sombre activé"
+
+#: src/pages/CartPopover.jsx
+#: src/pages/Checkout.jsx
+msgid "Total :"
+msgstr "Total :"
+
+#: src/pages/ProduitDetail.jsx
+#: src/pages/Produits.jsx
+msgid "Tous"
+msgstr "Tous"
+
+#: src/pages/Checkout.jsx
+msgid "Traitement en cours..."
+msgstr "Traitement en cours..."
+
+#: src/pages/TooManyRequests.jsx
+msgid "Trop de requêtes envoyées, laisse le serveur respirer"
+msgstr "Trop de requêtes envoyées, laisse le serveur respirer"
+
+#: src/pages/SellerProfile.jsx
+msgid "Tu as déjà laissé un avis pour ce vendeur."
+msgstr "Tu as déjà laissé un avis pour ce vendeur."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Type"
+msgstr "Type"
+
+#: src/pages/TermsOfService.jsx
+msgid "Un compte est personnel : vous êtes responsable de la confidentialité de votre mot de passe et de toute activité effectuée depuis votre compte."
+msgstr "Un compte est personnel : vous êtes responsable de la confidentialité de votre mot de passe et de toute activité effectuée depuis votre compte."
+
+#: src/components/reviews/ReviewCard.jsx
+msgid "Une erreur est survenue lors de l'enregistrement."
+msgstr "Une erreur est survenue lors de l'enregistrement."
+
+#: src/pages/Checkout.jsx
+msgid "Une erreur est survenue lors de l'initialisation du paiement."
+msgstr "Une erreur est survenue lors de l'initialisation du paiement."
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "Une erreur est survenue."
+msgstr "Une erreur est survenue."
+
+#: src/pages/Faq.jsx
+msgid "Une fois connecté, rendez-vous sur votre profil ou sur la page Produits pour remplir le formulaire d'ajout (nom du produit, prix, catégorie, description et photo de couverture)."
+msgstr "Une fois connecté, rendez-vous sur votre profil ou sur la page Produits pour remplir le formulaire d'ajout (nom du produit, prix, catégorie, description et photo de couverture)."
+
+#: src/pages/Settings.jsx
+msgid "Une fois votre compte supprimé, toutes vos données seront définitivement effacées du système."
+msgstr "Une fois votre compte supprimé, toutes vos données seront définitivement effacées du système."
+
+#: src/pages/Faq.jsx
+msgid "Une question supplémentaire sur le projet ? Contactez l'équipe de développement à l'adresse : <0>contact@thegoodcorner.fr</0>."
+msgstr "Une question supplémentaire sur le projet ? Contactez l'équipe de développement à l'adresse : <0>contact@thegoodcorner.fr</0>."
+
+#: src/pages/TermsOfService.jsx
+msgid "Une question sur ces conditions ? <0>contact@thegoodcorner.fr</0>"
+msgstr "Une question sur ces conditions ? <0>contact@thegoodcorner.fr</0>"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Une question sur vos données ? <0>contact@thegoodcorner.fr</0>"
+msgstr "Une question sur vos données ? <0>contact@thegoodcorner.fr</0>"
+
+#: src/pages/Settings.jsx
+#~ msgid "Unlocked"
+#~ msgstr "Déverrouillé"
+
+#: src/pages/Settings.jsx
+#~ msgid "User ID not found in token."
+#~ msgstr "Identifiant utilisateur introuvable dans le jeton."
+
+#: src/pages/Settings.jsx
+#~ msgid "User identifier not found."
+#~ msgstr "Identifiant utilisateur introuvable."
+
+#: src/pages/Profile.jsx
+#: src/pages/SellerProfile.jsx
+msgid "Utilisateur"
+msgstr "Utilisateur"
+
+#: src/pages/Settings.jsx
+#~ msgid "Validate"
+#~ msgstr "Valider"
+
+#: src/components/checkout/checkoutForm.jsx
+msgid "Validation en cours..."
+msgstr "Validation en cours..."
+
+#: src/components/chat/MessageBubble.jsx
+#: src/pages/Settings.jsx
+msgid "Valider"
+msgstr "Valider"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Vendeur"
+msgstr "Vendeur"
+
+#. placeholder {0}: formatMonthYear(user?.createdAt)
+#: src/components/profile/ProfilHeader.jsx
+msgid "Vendeur depuis {0} • En ligne"
+msgstr "Vendeur depuis {0} • En ligne"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Vendeur Elite"
+msgstr "Vendeur Elite"
+
+#: src/components/products/ProductCard.jsx
+#: src/pages/ProduitDetail.jsx
+msgid "Vendeur inconnu"
+msgstr "Vendeur inconnu"
+
+#: src/pages/SellerProfile.jsx
+msgid "Vendeur introuvable"
+msgstr "Vendeur introuvable"
+
+#: src/pages/ProduitDetail.jsx
+msgid "Vendu par"
+msgstr "Vendu par"
+
+#: src/pages/Settings.jsx
+msgid "Veuillez saisir un montant valide."
+msgstr "Veuillez saisir un montant valide."
+
+#: src/components/products/ProductCard.jsx
+#: src/pages/ProduitDetail.jsx
+msgid "Victime de son succès"
+msgstr "Victime de son succès"
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Ville"
+msgstr "Ville"
+
+#: src/components/profile/TwoFactorSettings.jsx
+msgid "Voici une liste de codes individuels de secours, ils sont à usage unique.<0/>Ils vous serviront en cas de perte de votre secret.<1/>Gardez-les précieusement et ne les partagez pas."
+msgstr "Voici une liste de codes individuels de secours, ils sont à usage unique.<0/>Ils vous serviront en cas de perte de votre secret.<1/>Gardez-les précieusement et ne les partagez pas."
+
+#: src/components/profile/ProfilInfos.jsx
+msgid "Voir le détail de l'adresse"
+msgstr "Voir le détail de l'adresse"
+
+#: src/pages/Profile.jsx
+#: src/pages/SellerProfile.jsx
+msgid "Voir moins d'avis"
+msgstr "Voir moins d'avis"
+
+#: src/pages/Home.jsx
+msgid "Voir nos produits"
+msgstr "Voir nos produits"
+
+#. placeholder {0}: activeReviews.length
+#: src/pages/SellerProfile.jsx
+msgid "Voir tous les avis ({0})"
+msgstr "Voir tous les avis ({0})"
+
+#: src/pages/Profile.jsx
+msgid "Voir tous les avis ({reviewCount})"
+msgstr "Voir tous les avis ({reviewCount})"
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Vos données ne sont partagées avec aucun prestataire publicitaire ou analytique tiers."
+msgstr "Vos données ne sont partagées avec aucun prestataire publicitaire ou analytique tiers."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Vos données sont conservées tant que votre compte est actif. Vous pouvez supprimer votre compte à tout moment depuis votre page Profil ; vos données de profil sont alors effacées. Pour toute question sur le devenir d'un contenu que vous avez publié et qui concerne d'autres utilisateurs (avis, messages), contactez-nous."
+msgstr "Vos données sont conservées tant que votre compte est actif. Vous pouvez supprimer votre compte à tout moment depuis votre page Profil ; vos données de profil sont alors effacées. Pour toute question sur le devenir d'un contenu que vous avez publié et qui concerne d'autres utilisateurs (avis, messages), contactez-nous."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Vos droits"
+msgstr "Vos droits"
+
+#: src/components/layouts/Footer.jsx
+msgid "Votre boutique en ligne pour les meilleurs produits handpickés."
+msgstr "Votre boutique en ligne pour les meilleurs produits sélectionnés avec soin."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Votre email, votre adresse et votre numéro de téléphone ne sont jamais visibles par les autres utilisateurs. Seul votre profil public est visible des autres membres : nom d'utilisateur, avatar, biographie, note vendeur, et produits que vous avez publiés."
+msgstr "Votre email, votre adresse et votre numéro de téléphone ne sont jamais visibles par les autres utilisateurs. Seul votre profil public est visible des autres membres : nom d'utilisateur, avatar, biographie, note vendeur, et produits que vous avez publiés."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Votre jeton d'authentification n'est, quant à lui, jamais stocké dans le navigateur : il vit uniquement en mémoire le temps de votre session et est régénéré via le cookie de rafraîchissement."
+msgstr "Votre jeton d'authentification n'est, quant à lui, jamais stocké dans le navigateur : il vit uniquement en mémoire le temps de votre session et est régénéré via le cookie de rafraîchissement."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Votre mot de passe est haché avant stockage — personne, pas même notre équipe, n'y a accès en clair. La connexion s'appuie sur un jeton de courte durée renouvelé via un cookie sécurisé (httpOnly), non accessible en JavaScript."
+msgstr "Votre mot de passe est haché avant stockage — personne, pas même notre équipe, n'y a accès en clair. La connexion s'appuie sur un jeton de courte durée renouvelé via un cookie sécurisé (httpOnly), non accessible en JavaScript."
+
+#: src/pages/CartPopover.jsx
+msgid "Votre Panier"
+msgstr "Votre panier"
+
+#: src/pages/Checkout.jsx
+msgid "Votre panier est vide"
+msgstr "Votre panier est vide"
+
+#: src/pages/TooManyRequests.jsx
+msgid "Vous allez donc être déconnecté de votre session"
+msgstr "Vous allez donc être déconnecté de votre session"
+
+#: src/pages/ProduitDetail.jsx
+msgid "Vous devez être connecté pour contacter le vendeur"
+msgstr "Vous devez être connecté pour contacter le vendeur"
+
+#: src/pages/Checkout.jsx
+msgid "Vous devez être connecté pour passer votre commande."
+msgstr "Vous devez être connecté pour passer votre commande."
+
+#: src/pages/Profile.jsx
+msgid "Vous n'avez aucun article en vente."
+msgstr "Vous n'avez aucun article en vente."
+
+#: src/pages/Profile.jsx
+msgid "Vous n'avez pas d'amis pour l'instant"
+msgstr "Vous n'avez pas d'amis pour l'instant"
+
+#: src/pages/Orders.jsx
+msgid "Vous n'avez passé aucune commande pour le moment."
+msgstr "Vous n'avez passé aucune commande pour le moment."
+
+#: src/pages/Profile.jsx
+msgid "Vous n'êtes pas connecté"
+msgstr "Vous n'êtes pas connecté"
+
+#: src/hooks/useCartError.jsx
+msgid "Vous ne pouvez pas ajouter votre propre produit au panier."
+msgstr "Vous ne pouvez pas ajouter votre propre produit au panier."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Vous permettre de publier des annonces, laisser des avis et échanger des messages avec d'autres utilisateurs."
+msgstr "Vous permettre de publier des annonces, laisser des avis et échanger des messages avec d'autres utilisateurs."
+
+#: src/pages/PrivacyPolicy.jsx
+msgid "Vous pouvez effacer ces données à tout moment depuis les paramètres de votre navigateur."
+msgstr "Vous pouvez effacer ces données à tout moment depuis les paramètres de votre navigateur."
+
+#: src/pages/TermsOfService.jsx
+msgid "Vous pouvez laisser un avis (note et commentaire) sur le profil d'un vendeur avec qui vous n'avez pas encore d'avis existant — un seul avis par vendeur et par utilisateur. Les avis doivent être honnêtes, refléter une expérience réelle, et ne pas être diffamatoires, injurieux ou trompeurs. Vous pouvez modifier ou supprimer un avis que vous avez publié à tout moment."
+msgstr "Vous pouvez laisser un avis (note et commentaire) sur le profil d'un vendeur avec qui vous n'avez pas encore d'avis existant — un seul avis par vendeur et par utilisateur. Les avis doivent être honnêtes, refléter une expérience réelle, et ne pas être diffamatoires, injurieux ou trompeurs. Vous pouvez modifier ou supprimer un avis que vous avez publié à tout moment."
+
+#: src/pages/TermsOfService.jsx
+msgid "Vous vous engagez à fournir des informations exactes lors de votre inscription."
+msgstr "Vous vous engagez à fournir des informations exactes lors de votre inscription."
+
+#: src/pages/Settings.jsx
+msgid "Zone de danger"
+msgstr "Zone de danger"

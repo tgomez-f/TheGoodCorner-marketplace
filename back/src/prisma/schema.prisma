@@ -1,0 +1,200 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+
+  email     String   @unique
+  username  String   @unique
+  password  String
+  stripeCustomerId String?   @unique
+
+  name      String?
+  avatar    String?
+  bio       String?
+  phoneNumber String?
+
+  budget Float @default(1000)
+  payment Payment[]
+
+  sellerRating Float? @default(0)
+  sellerReviewCount Int? @default(0)
+  authoredReviews Review[] @relation("AuthoredReviews")
+  receivedReviews Review[] @relation("ReceivedReviews")
+  sellerEliteStatus Boolean? @default(false)
+  sellerEliteStatusCatchPhrase String?
+
+  sentMessages     Message[] @relation("SentMessages")
+  receivedMessages Message[] @relation("ReceivedMessages")
+
+  sentFriendRequests     FriendRequest[] @relation("Sender")
+  receivedFriendRequests FriendRequest[] @relation("Receiver")
+
+  product  Product[]
+  locationId Int?
+  location   Location? @relation(fields: [locationId], references: [id])
+  refreshToken RefreshToken[]
+  twoFactor TwoFactor?
+  notifications Notification[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Payment {
+  id        Int      @id @default(autoincrement())
+
+  stripeId String @unique
+  amount Float
+  currency String @default("eur")
+  status String
+  userId Int
+  user  User  @relation(fields: [userId], references: [id], onDelete:Cascade)
+  cartSnapshot  Json?
+  products  Product[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  @@index([userId])
+}
+model FriendRequest {
+  id        Int      @id @default(autoincrement())
+
+  senderId   Int
+  sender     User     @relation("Sender", fields: [senderId], references: [id], onDelete: Cascade)
+
+  receiverId Int
+  receiver   User     @relation("Receiver", fields: [receiverId], references: [id], onDelete: Cascade)
+
+  status    String   @default("PENDING") // "PENDING", "ACCEPTED", "REJECTED"
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Évite les demandes en double
+  @@unique([senderId, receiverId])
+  @@index([senderId])
+  @@index([receiverId])
+}
+
+model Message {
+  id         Int      @id @default(autoincrement())
+  content    String   // Single message content
+  isRead     Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  modifiedAt  DateTime? 
+
+  senderId   Int
+  sender     User     @relation("SentMessages", fields: [senderId], references: [id], onDelete: Cascade)
+
+  receiverId Int
+  receiver   User     @relation("ReceivedMessages", fields: [receiverId], references: [id], onDelete: Cascade)
+
+  @@index([senderId, receiverId])
+  @@index([createdAt])
+}
+
+model RefreshToken{
+  id        String   @id @default(uuid())
+
+  hashedToken String @unique
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  revokedAt  DateTime?
+  replacedBy String?
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}
+
+model Product {
+  id        Int      @id @default(autoincrement())
+
+  name String
+  price Float
+  description String
+  userId Int
+  author    User    @relation(fields: [userId], references: [id]) 
+  categoryId  Int
+  category    Category    @relation(fields: [categoryId], references: [id])
+  payments    Payment[]
+  imageUrl  String?
+  quantity Int? @default(1)
+}
+
+model Category {
+  id        Int      @id @default(autoincrement())
+
+  name String @unique
+  product Product[]
+}
+
+model Location {
+  id        Int      @id @default(autoincrement())
+
+  users   User[]
+
+  country String
+  region String
+  city String
+  street String
+  houseNumber Int
+
+  additionnal_infos String?
+}
+
+model Notification {
+  id        Int      @id @default(autoincrement())
+
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  type      String
+  content   Json
+  read      Boolean  @default(false)
+
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([createdAt])
+}
+
+model Review {
+  id              Int      @id @default(autoincrement())
+  
+  reviewRating    Int
+  reviews         String
+
+  authorId        Int
+  reviewAuthor    User      @relation("AuthoredReviews", fields: [authorId], references: [id], onDelete: Cascade)
+  reviewedUserId  Int
+  reviewedUser    User      @relation("ReceivedReviews",fields: [reviewedUserId], references: [id], onDelete: Cascade)
+
+  createdAt       DateTime @default(now())
+  deletedAt       DateTime?
+  modifiedAt      DateTime @updatedAt
+
+  @@unique([authorId, reviewedUserId])
+  @@index([reviewedUserId])
+  @@index([authorId])
+}
+
+model TwoFactor {
+  userId Int @id
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  secret String
+  enabled Boolean @default(false)
+  setupExpiresAt DateTime
+  lastStep Int @default(-1)
+  recoveryHashes String[]
+  attempts Int @default(0)
+  windowStart DateTime @default(now())
+}

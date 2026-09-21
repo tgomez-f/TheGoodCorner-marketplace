@@ -1,0 +1,52 @@
+{
+  "id": "/",
+  "name": "TheGoodCorner — Marketplace d'occasion",
+  "short_name": "TheGoodCorner",
+  "description": "Achetez et vendez du matériel de sport, d'entraînement et de combat entre particuliers.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "lang": "fr",
+  "dir": "ltr",
+  "categories": ["shopping", "marketplace", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icons/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Mes messages",
+      "short_name": "Messages",
+      "description": "Voir mes conversations",
+      "url": "/messagerie",
+      "icons": [{ "src": "/icons/logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mes commandes",
+      "short_name": "Commandes",
+      "description": "Voir l'historique de mes commandes",
+      "url": "/orders",
+      "icons": [{ "src": "/icons/logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mon profil",
+      "short_name": "Profil",
+      "description": "Gérer mes annonces et mon profil vendeur",
+      "url": "/profile",
+      "icons": [{ "src": "/icons/logo192.png", "sizes": "192x192" }]
+    }
+  ]
+}
