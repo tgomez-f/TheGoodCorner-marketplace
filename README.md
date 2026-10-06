@@ -1,4 +1,4 @@
-# *This project has been created as part of the 42 curriculum by mchanlia, tgomez-f, dpaiva, chdoe and chlimous.*
+# *This project has been created as part of the 42 curriculum by mchanlia, tgomez-f, dpaiva, and chlimous.*
 
 ![Home](GithubPng/Home.png)
 ![Products](GithubPng/Products.png)
@@ -222,7 +222,6 @@ http://localhost:8080 for non encrypted connection on your local machine's web-b
 | `mchanlia` | Maxence Chanliat | PO/PM / Backend/Frontend Developer | Backend development, Backend API, DevOps, Debugging, Frontend support |
 | `tgomez-f` | Thomas Gomez | PO/PM / Frontend/Backend Developer | Frontend development, Frontend and Backend API, Mocking, UI Integration, Backend support, Nginx infrastructure configuration, Debugging |
 | `dpaiva` | Delphine Paiva | Tech Lead / Full-Stack Developer| UI Integration, Debugging, Notifications |
-| `chdoe` | Chloé Doe | PM/Tech Lead | Frontend Developer, Team Coordination, Frontend development, Debugging, Language support and architecture |
 | `chlimous` | Charles Limousin | PM/Tech Lead | Backend development, Backend services, 2FA service |
 
 # Project Management
@@ -510,16 +509,6 @@ The main challenge was understanding each concept, because the features I was wo
 - Debugging throughout the project's lifespan
 
 The main challenge was integrating 2FA cleanly into the existing authentication flow without breaking the user experience, while also switching between frontend and backend work and keeping both sides consistent.
-
-
-### `chdoe` - Chloé Doe
-
-- Acted as Product Manager: defined the project scope, prioritized features, and coordinated tasks across the team
-- Designed the monolithic backend architecture (single server, shared codebase) and defined the overall project structure
-- Designed the graphic identity and frontend UI/UX (mockups, layout, styling)
-- Debugging throughout the project's lifespan
-
-The main challenge was balancing the product management role with the technical work, making sure priorities stayed clear for the team while also keeping the monolithic architecture simple enough to scale and remain maintainable as new features were added.
 
 
 # Known limitations
