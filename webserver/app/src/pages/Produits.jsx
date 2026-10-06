@@ -13,16 +13,62 @@ const itemsPerPage = 12;
 function Products() {
     const { t } = useLingui();
     const products = useProductStore((state) => state.products);
+    const fetchProducts = useProductStore((state) => state.fetchProducts);
     const loading = useProductStore((state) => state.loading);
     const filters = useProductStore((state) => state.filters);
     const setFilters = useProductStore((state) => state.setFilters);
-    const getFilteredProducts = useProductStore(
-        (state) => state.getFilteredProducts,
-    );
+
     const user = useUserStore((state) => state.user);
     const currentUserId = user?.id;
     const [itemOffset, setItemOffset] = useState(0);
-    const filteredProducts = getFilteredProducts();
+
+    // Chargement initial et synchronisation
+    useEffect(() => {
+        fetchProducts();
+    }, [fetchProducts]);
+
+    // Filtrage réactif avec useMemo (exclut stock <= 0)
+    const filteredProducts = useMemo(() => {
+        return products.filter((product) => {
+            const qty = Number(product.quantity ?? 0);
+            if (qty <= 0) return false;
+
+            // Catégorie du produit (gère string ou objet { name: ... })
+            const prodCat = (product.category?.name || product.category || "").toLowerCase();
+
+            // Filtre "MyProducts"
+            if (filters.selectedCategory === "MyProducts") {
+                const isMine =
+                    product.author?.username === user?.username ||
+                    Number(product.userId) === Number(currentUserId);
+                if (!isMine) return false;
+            } 
+            // Filtre "Other"
+            else if (filters.selectedCategory?.toLowerCase() === "other") {
+                const standardKeys = ["training", "professional", "combat", "cardio", "all"];
+                const isStandard = standardKeys.includes(prodCat);
+                // Est considéré comme "Autre" s'il a explicitement 'other', un champ customCategory, ou une catégorie hors liste standard
+                const isOther = prodCat === "other" || !isStandard || Boolean(product.customCategory);
+                if (!isOther) return false;
+            } 
+            // Autres catégories standards
+            else if (filters.selectedCategory && filters.selectedCategory !== "All") {
+                if (prodCat !== filters.selectedCategory.toLowerCase()) return false;
+            }
+
+            // Filtre recherche textuelle
+            const matchSearch = (product.name || "")
+                .toLowerCase()
+                .includes((filters.search || "").toLowerCase());
+
+            // Filtre prix
+            const minPrice = filters.minPrice ?? 0;
+            const maxPrice = filters.maxPrice ?? PRODUCT_PRICE_MAX;
+            const matchPrice = product.price >= minPrice && product.price <= maxPrice;
+
+            return matchSearch && matchPrice;
+        });
+    }, [products, filters, user, currentUserId]);
 
     const categoryLabels = useMemo(() => ({
         All: t`Tous`,
@@ -41,7 +87,7 @@ function Products() {
     const pageCount = Math.ceil(filteredProducts.length / itemsPerPage);
 
     const handlePageClick = (event) => {
-        const newOffset = (event.selected * itemsPerPage) % filteredProducts.length;
+        const newOffset = (event.selected * itemsPerPage) % (filteredProducts.length || 1);
         setItemOffset(newOffset);
         window.scrollTo({ top: 0, behavior: "smooth" });
     };
